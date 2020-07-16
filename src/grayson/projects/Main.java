@@ -1,6 +1,7 @@
 package grayson.projects;
 
 import grayson.projects.atoms.*;
+import grayson.projects.molecules.Molecule;
 
 import java.util.ArrayList;
 
@@ -48,5 +49,11 @@ public class Main {
         System.out.println(hydrogenAtom1.getMass());
         System.out.println(fluorineAtom1.getMass());
         System.out.println(nitrogenAtom1.getMass());
+
+        SearchTree searchTree = new SearchTree();
+        searchTree.addItem(oxygenAtom1.bind(nh3Element));
+        searchTree.addItem(hydrogenAtom1.bind(h2oElement));
+        searchTree.traverse(oxygenAtom1.bind(nh3Element));
+
     }
 }

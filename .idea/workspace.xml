@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9363e035-bf97-4769-8c1d-172a1962beb5" name="Default Changelist" comment="" />
+    <list default="true" id="9363e035-bf97-4769-8c1d-172a1962beb5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/grayson/projects/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GenericLinkedList.learner_lab/grayson/projects/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GenericLinkedList.learner_lab/grayson/projects/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GenericLinkedList.learner_lab/grayson/projects/atoms/Atom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GenericLinkedList.learner_lab/grayson/projects/atoms/Atom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GenericLinkedList.learner_lab/grayson/projects/molecules/Molecule.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GenericLinkedList.learner_lab/grayson/projects/molecules/Molecule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grayson/projects/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grayson/projects/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grayson/projects/SearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grayson/projects/SearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grayson/projects/atoms/Atom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grayson/projects/atoms/Atom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grayson/projects/molecules/Molecule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grayson/projects/molecules/Molecule.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -68,7 +78,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

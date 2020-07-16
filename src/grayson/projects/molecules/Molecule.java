@@ -1,10 +1,11 @@
 package grayson.projects.molecules;
 
+import grayson.projects.TreeNode;
 import grayson.projects.atoms.Atom;
 
 import java.util.ArrayList;
 
-public class Molecule<T extends Atom> {
+public class Molecule<T extends Atom> extends TreeNode {
 
     private String name;
     private int hydrogenAtoms;
@@ -35,10 +36,6 @@ public class Molecule<T extends Atom> {
         this.hydrogenAtoms = hydrogenAtoms;
     }
 
-    public int getHydrogenAtoms() {
-        return hydrogenAtoms;
-    }
-
     public void setOxygenAtoms(int oxygenAtoms) {
         this.oxygenAtoms = oxygenAtoms;
     }
@@ -59,10 +56,14 @@ public class Molecule<T extends Atom> {
         return mass;
     }
 
-    //    public int compareTo(Molecule<T> molecule) {
-//
-//        if (molecule != null) {
-//            if (this.)
-//        }
-//    }
+    public int compareTo(Molecule<T> molecule) {
+
+        if (this.getMass() > molecule.getMass()) {
+            return -1;
+        } else if (this.getMass() < molecule.getMass()) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
 }

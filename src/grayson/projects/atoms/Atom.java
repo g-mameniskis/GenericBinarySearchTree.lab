@@ -42,7 +42,6 @@ public abstract class Atom<T> {
         for (int i = 0; i < atoms.size(); i++) {
             if (atoms.get(i).getName().equals("Hydrogen")){
                 hydrogenAtoms++;
-                newMolecule.setHydrogenAtoms(newMolecule.getHydrogenAtoms());
                 newMolecule.setHydrogenAtoms(hydrogenAtoms);
             } else if (atoms.get(i).getName().equals("Oxygen")) {
                 oxygenAtoms++;
